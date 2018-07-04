@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Solution</title>
+</head>
+<body>
+
+<h1>Register</h1>
+<form>
+	<label for="firstname"> First Name: 
+		<input id="firstname" type="text" name="firstname" placeholder="John" required>
+	</label>
+	<label for="lastname"> Last Name:
+		<input id="lastname" type="text" name="lastname" placeholder="Smith" required>
+	</label>
+	<br>
+	
+	<label for="male">Male
+		<input id="male" type="radio" name="sex" value="Male">
+	</label>
+	<label for="female">Female
+		<input id="female" type="radio" name="sex" value="Female">
+	</label>
+	<label for="other">Other
+		<input id="other" type="radio" name="sex" value="other">
+	</label>
+	<br>
+
+	<label for="email">Email:
+		<input id="email" type="email" name="email" required="">
+	</label>
+	<label for="password">Password:
+		<input id="password" type="password" name="password" minlength="3" maxlength="5">
+	</label>
+	<br>
+
+	<label for="birthday">Birthday:
+		<select id="month" name="month">
+			<option id="month" value="Month">Month</option>
+			<option id="month" value="Jan">January</option>
+			<option id="month" value="Feb">Febuary</option>
+		</select>
+		<select id="day" name="day">
+			<option id="day" value="Day">Day</option>
+			<option id="day" value="1">1</option>
+			<option id="day" value="2">2</option>
+		</select>
+		<select id="year" name="year">
+			<option id="year" value="Year">Year</option>
+			<option id="year" value="2018">2018</option>
+			<option id="year" value="2017">2017</option>
+		</select>
+	</label>
+	<br>
+	<label for="declaration">I agree to the terms and conditions
+		<input id="declaration" type="checkbox" name="dec">
+	</label>
+
+
+
+	<br>
+	<input type="submit" >
+</form>
+</body>
+</html>
