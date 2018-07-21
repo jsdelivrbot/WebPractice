@@ -26,18 +26,14 @@
     class App extends React.Component {
 
       render() {
-
       return (
-        <React.Fragment>
-        <h1>Ankit</h1>
-        <h1>Ankit</h1>
-</React.Fragment>
+        <h1>{this.props.color}</h1>
       );
     }
   }
 
    ReactDOM.render(
-   <App/>,
+   <App color="red"/>,
     destination
    );
   </script>
