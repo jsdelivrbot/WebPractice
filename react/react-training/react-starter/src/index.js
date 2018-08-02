@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home';
+import Container from './Container';
 
 ReactDOM.render(
     <div>
-        <Home/>
+        <Container />
     </div>,
     document.querySelector("#container")
 );
